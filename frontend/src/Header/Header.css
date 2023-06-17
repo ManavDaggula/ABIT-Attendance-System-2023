@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    min-height: 12%;
+    max-height: 20%;
+    background: #838383;
+    /* font-size: 2rem; */
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    /* padding: 10px; */
+}
+
+.header img{
+    width: 100px;
+    scale: 1.75;
+}

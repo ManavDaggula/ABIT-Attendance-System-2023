@@ -1,0 +1,14 @@
+.main{
+    margin: 12px;
+}
+.main form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main form input[type="text"], .main form button{
+    font-size: 1.2rem;
+    text-align: center;
+}
