@@ -12,8 +12,12 @@ function Background() {
         let startPosY = 0 - box.size
         box.ref.style.left = startPosX+"px"
         let posAnimation = [
-            { top: startPosY+"px" },
-            { top: limits.height+"px" },
+            { top: startPosY+"px",
+            // opacity: 1
+         },
+            { top: limits.height+"px",
+            // opacity: 0
+         },
           ];
         let time = 2 + Math.random()*3
         let posTiming = {
