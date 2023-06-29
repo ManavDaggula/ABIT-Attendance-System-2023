@@ -7,6 +7,7 @@ import CheckCode from './Volunteer/CheckCode';
 import VerifyAttendee from './Volunteer/VerifyAttendee';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import { useState } from 'react';
+import Background from './Background/Background';
 
 function App() {
   const [code,setCode] = useState('');
@@ -18,8 +19,9 @@ function App() {
     setDetails(details);
   }
   return (
-    // <>
-    // <Header></Header> 
+    <>
+    <Background></Background>
+    {/* <Header></Header>  */}
     <RouterProvider router={createBrowserRouter([
       {
         path:'/',
@@ -33,6 +35,7 @@ function App() {
     ])}>
       
     </RouterProvider>
+    </>
   );
 }
 
